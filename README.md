@@ -1,51 +1,50 @@
 # Volve Well Performance Framework
 
-A research repository for the development of an integrated framework for multi-parameter well performance evaluation using routine production data from the Volve Oil Field.
+This repository contains the data, analyses, source code, documentation, and research materials for a study on well performance evaluation using routine production data from the Volve Oil Field.
 
 ## Overview
 
-This repository contains the datasets, source code, notebooks, documentation, figures, and manuscript associated with the research project:
+Routine production and operational data are fundamental to production surveillance and well performance evaluation. These measurements provide insight into the behaviour of producing wells and support engineering analyses throughout the life of a field.
 
-**An Integrated Framework for Multi-Parameter Well Performance Evaluation Using Routine Production Data: A Case Study of the Volve Oil Field**
-
-The project aims to develop a reproducible engineering framework for evaluating well performance using routine production and operational data. Rather than focusing solely on production forecasting, this study integrates multiple engineering parameters to support comprehensive well performance evaluation.
+This project investigates how routinely collected production and operational measurements can be integrated into a structured methodology for well performance evaluation. The study uses publicly available data from the Volve Oil Field as a case study for developing and assessing the proposed framework.
 
 ## Research Objectives
 
-* Analyze production and operational characteristics of wells.
-* Investigate relationships between operational parameters and production response.
-* Develop an integrated framework for multi-parameter well performance evaluation.
-* Evaluate the framework using the Volve field dataset.
+* Characterize the production and operational behaviour of wells using routine field data.
+* Investigate the relationships between operational parameters and production response.
+* Develop an integrated methodology for well performance evaluation.
+* Assess the applicability of the proposed framework using the Volve dataset.
 
 ## Repository Structure
 
-* `data/` – Raw and processed datasets.
-* `notebooks/` – Data analysis and experimental notebooks.
-* `src/` – Source code for preprocessing, analysis, and framework implementation.
-* `docs/` – Research documentation, methodology, and project planning.
-* `figures/` – Figures used in the manuscript.
-* `tables/` – Tables generated during the study.
-* `manuscript/` – Drafts and submission materials.
-
-## Current Status
-
-**Phase:** Research Gap Analysis
-
-The current work focuses on:
-
-* Literature review
-* Gap identification
-* Framework design
-* Dataset audit
+```text
+data/          Raw, processed, and metadata files
+docs/          Project documentation and research notes
+figures/       Figures generated during the study
+manuscript/    Manuscript drafts and supporting materials
+models/        Saved models and model artefacts
+notebooks/     Jupyter notebooks for data analysis
+outputs/       Generated reports, tables, and figures
+references/    Literature and bibliography files
+src/           Source code
+tests/         Validation and testing scripts
+```
 
 ## Dataset
 
-This study uses publicly available production data from the Volve Oil Field provided by Equinor.
+The study uses publicly available production data from the Volve Oil Field released by Equinor.
 
-## Target Journal
+## Project Status
 
-Romanian Journal of Petroleum & Gas Technology (RJPGT)
+Current phase: Literature review, research gap analysis, and framework design.
+
+## Repository Goals
+
+* Maintain a transparent and reproducible research workflow.
+* Document analytical methods and engineering decisions.
+* Organize all project resources in a single version-controlled repository.
 
 ## License
 
-This repository is released under the MIT License.
+This repository is distributed under the MIT License.
+
